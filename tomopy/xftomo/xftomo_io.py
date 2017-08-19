@@ -26,7 +26,7 @@ from __future__ import print_function
 import numpy as np
 import scipy.misc
 import h5py
-import ipdb
+#import ipdb
 import sys
 import os
 import warnings
@@ -371,5 +371,5 @@ if __name__ == '__main__':
     pyl.ion()
     from matplotlib import *
     pyl.matshow(data[0,0,:,:])
-    ipdb.set_trace()
+    #ipdb.set_trace()
 
