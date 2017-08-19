@@ -7,7 +7,7 @@ import scipy.ndimage.interpolation as spni
 import scipy.ndimage.measurements as spnm
 import scipy.optimize as spo
 from skimage.transform import radon, iradon
-import ipdb
+#import ipdb
 import imreg
 from pylab import show, matshow
 
