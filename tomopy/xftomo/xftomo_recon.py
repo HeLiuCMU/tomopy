@@ -6,7 +6,7 @@ package to X-ray absorption tomography data object.
 """
 
 import numpy as np
-import ipdb
+#import ipdb
 import os
 import shutil
 
