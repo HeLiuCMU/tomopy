@@ -8,7 +8,7 @@ package to X-ray absorption tomography data object.
 import numpy as np
 import os
 import shutil
-import ipdb
+#import ipdb
 
 # Import main TomoPy object.
 from tomopy.xtomo.xtomo_dataset import XTomoDataset
