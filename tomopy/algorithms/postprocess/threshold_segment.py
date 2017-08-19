@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from skimage.filter import threshold_otsu
+from skimage.filters import threshold_otsu
 import tomopy.tools.multiprocess_shared as mp
 
 # --------------------------------------------------------------------
