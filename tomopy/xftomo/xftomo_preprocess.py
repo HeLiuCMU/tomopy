@@ -7,7 +7,7 @@ preprocess package to X-ray absorption tomography data object.
 
 import numpy as np
 import scipy as sp
-import ipdb
+#import ipdb
 from numpy import pad
 import scipy.ndimage as spn
 import os
