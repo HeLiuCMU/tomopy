@@ -270,7 +270,7 @@ def test_case():
         print('Invariant correlation test: PASSED')
     except AssertionError:
         print('Invariant correlation test: FAILED')
-        ipdb.set_trace()
+        #ipdb.set_trace()
 
 
 
