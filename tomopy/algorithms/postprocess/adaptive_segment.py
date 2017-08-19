@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from scipy import ndimage
-from skimage.filter import threshold_adaptive
+from skimage.filters import threshold_adaptive
 import tomopy.tools.multiprocess_shared as mp
 
 # --------------------------------------------------------------------
