@@ -242,6 +242,5 @@ def _ringb(data, m, n, step):
 
         new[:, k * step:(k + 1) * step] = numpy.add(sino_block, K)
 
-   newsino = new.astype(numpy.float32)
-
-   return numpy.transpose(newsino)
+    newsino = new.astype(numpy.float32)
+    return numpy.transpose(newsino)
