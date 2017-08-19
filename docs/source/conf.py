@@ -325,7 +325,7 @@ class Mock(object):
 
 MOCK_MODULES = ['ctypes', 'h5py', 'numpy', 'scipy',
                 'scipy.ndimage', 'pywt', 'scipy.optimize', 'skimage',
-                'skimage.filter', 'skimage.morphology']
+                'skimage.filters', 'skimage.morphology']
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = Mock()
 
