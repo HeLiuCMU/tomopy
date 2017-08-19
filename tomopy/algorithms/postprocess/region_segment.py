@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 from skimage import morphology
-from skimage.filter import sobel
+from skimage.filters import sobel
 import tomopy.tools.multiprocess_shared as mp
 
 # --------------------------------------------------------------------
